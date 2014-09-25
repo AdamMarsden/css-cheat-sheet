@@ -2,7 +2,7 @@
 A quick go to guide for CSS goodness. Checkout the [pretty version](http://adam-marsden.co.uk/css-cheat-sheet).
 
 ##Contributing
-If you have a bug to report about the [pretty CSS Cheat Sheet](http://adam-marsden.co.uk/css-cheat-sheet) or something to add onto the CSS Cheat Cheet follow the [contribution guidelines](https://github.com/AdamMarsden/css-cheat-sheet/blob/master/CONTRIBUTING.md).
+If you have a bug to report about the [pretty CSS Cheat Sheet](http://adam-marsden.co.uk/css-cheat-sheet) or something to add onto the CSS Cheat Sheet follow the [contribution guidelines](https://github.com/AdamMarsden/css-cheat-sheet/blob/master/CONTRIBUTING.md).
 
 ##CSSCS Nav
 
@@ -84,7 +84,7 @@ Font Family `font-family: 'Open Sans', sans-serif`
 
 ###Position
 
-Position `position: static | relative | absolute`
+Position `position: static | relative | absolute | fixed | sticky`
 
 Left Position `left: 10px | 10% | auto`
 
