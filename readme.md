@@ -122,6 +122,9 @@ Background Color `background-color: #2AA9E0`
 Background Position `background-position: top | right | bottom | left |
 center`
 
+Background Attachment `background-attachment: scroll | fixed | local | initial |
+inherit`
+
 ###Box properties
 
 Margin `margin-top: 2px` `margin-right: 4px | auto` `margin-bottom: 6px`
