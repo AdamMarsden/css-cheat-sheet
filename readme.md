@@ -33,6 +33,8 @@ Adjacent Sibling Selector `h1 + p {}`
 
 General Sibling Selector `h1 ~ p {}`
 
+Attribute Selector `[attribute="SomeValue"]`
+
 ###Pseudo Selectors
 
 Mouse Over Selector `a:hover {}`
