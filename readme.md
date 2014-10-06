@@ -21,7 +21,7 @@ Universal Selector `* {}`
 
 Type Selector `h1, h2 ,h3 {}`
 
-Child Selector `ul &gt; li {}`
+Child Selector `ul > li {}`
 
 Descendant Selector `p a {}`
 
@@ -57,7 +57,7 @@ Last Child Selector `p:last-child {}`
 
 :nth-child Selector `p:nth-child() {}`
 
-Selector every element that is the first element of its parent `p:first-of-type {}`
+First Element of its Parent Selector `p:first-of-type {}`
 
 Checked elements selector  `input:checked {}`
 
@@ -65,9 +65,9 @@ Disabled elements selector `input:disabled {}`
 
 Enabled elements selector `input:enabled {}`
 
-Selector elements that has no children (including text nodes) `p:empty {}`
+Elements that have no Children Selector (including text nodes) `p:empty {}`
 
-Selector all elements that is not a specified element `:not(p) {}`
+Not a Specified Element Selector `:not(p) {}`
 
 ###Font Styling
 
@@ -77,8 +77,7 @@ Font Variant `font-variant: normal | small-caps`
 
 Font Weight `font-weight: normal | bold | bolder | lighter | 100 - 900`
 
-Vertical Alignment `vertical-align: baseline | 10px | sub | super | top |
-text-top | middle | bottom | text-bottom | initial`
+Vertical Alignment `vertical-align: baseline | 10px | sub | super | top | text-top | middle | bottom | text-bottom | initial`
 
 Font Size `font-size: 12px | 0.8em | 80%`
 
@@ -114,16 +113,13 @@ Z Index `z-index: 3 | auto | inherit`
 
 Background Image `background-image: url()`
 
-Background Repeat `background-repeat: repeat-x | repeat-y | repeat | space |
-round | no-repeat`
+Background Repeat `background-repeat: repeat-x | repeat-y | repeat | space | round | no-repeat`
 
 Background Color `background-color: #2AA9E0`
 
-Background Position `background-position: top | right | bottom | left |
-center`
+Background Position `background-position: top | right | bottom | left | center`
 
-Background Attachment `background-attachment: scroll | fixed | local | initial |
-inherit`
+Background Attachment `background-attachment: scroll | fixed | local | initial | inherit`
 
 ###Box properties
 
@@ -135,8 +131,7 @@ Padding `padding-top: 2px` `padding-right: 4px | auto` `padding-bottom: 6px`
 
 Border Color `border-color: #2AA9E0`
 
-Border Style `border-style: none | hidden | dotted | dashed | solid | double |
-groove | ridge | inset | outset`
+Border Style `border-style: none | hidden | dotted | dashed | solid | double | groove | ridge | inset | outset`
 
 Border Width `border-width: 10px`
 
