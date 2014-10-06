@@ -57,6 +57,18 @@ Last Child Selector `p:last-child {}`
 
 :nth-child Selector `p:nth-child() {}`
 
+Selector every element that is the first element of its parent `p:first-of-type {}`
+
+Checked elements selector  `input:checked {}`
+
+Disabled elements selector `input:disabled {}`
+
+Enabled elements selector `input:enabled {}`
+
+Selector elements that has no children (including text nodes) `p:empty {}`
+
+Selector all elements that is not a specified element `:not(p) {}`
+
 ###Font Styling
 
 Font style `font-style: normal | italic | oblique`
@@ -109,6 +121,9 @@ Background Color `background-color: #2AA9E0`
 
 Background Position `background-position: top | right | bottom | left |
 center`
+
+Background Attachment `background-attachment: scroll | fixed | local | initial |
+inherit`
 
 ###Box properties
 
