@@ -147,8 +147,6 @@ List Image `list-style-image: url();`
 
 Project by [Adam Marsden](https://twitter.com/AdamMarsdenUK)
 
-Made with [Crumpet](http://suitedpixel.com/crumpet/)
-
 ##License
 
 [Creative Commons Attribution-ShareAlike](https://creativecommons.org/licenses/by-sa/4.0/)
