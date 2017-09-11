@@ -1,10 +1,10 @@
 # CSS Cheat Sheet
 A quick go to guide for CSS goodness. Checkout the [pretty version](http://adam-marsden.co.uk/css-cheat-sheet).
 
-##Contributing
+## Contributing
 If you have a bug to report about the [pretty CSS Cheat Sheet](http://adam-marsden.co.uk/css-cheat-sheet) or something to add onto the CSS Cheat Sheet follow the [contribution guidelines](https://github.com/AdamMarsden/css-cheat-sheet/blob/master/CONTRIBUTING.md).
 
-##CSSCS Nav
+## CSSCS Nav
 
   * [Selectors](https://github.com/AdamMarsden/css-cheat-sheet#selectors)
   * [Pseudo Selectors](https://github.com/AdamMarsden/css-cheat-sheet#pseudo-selectors)
@@ -15,7 +15,7 @@ If you have a bug to report about the [pretty CSS Cheat Sheet](http://adam-marsd
   * [List Styling](https://github.com/AdamMarsden/css-cheat-sheet#list-styling)
 
 
-###Selectors
+### Selectors
 
 Universal Selector `* {}`
 
@@ -35,7 +35,7 @@ General Sibling Selector `h1 ~ p {}`
 
 Attribute Selector `[attribute="SomeValue"] {}`
 
-###Pseudo Selectors
+### Pseudo Selectors
 
 Mouse Over Selector `a:hover {}`
 
@@ -69,7 +69,7 @@ Elements that have no Children Selector (including text nodes) `p:empty {}`
 
 Not a Specified Element Selector `:not(p) {}`
 
-###Font Styling
+### Font Styling
 
 Font style `font-style: normal | italic | oblique`
 
@@ -95,7 +95,7 @@ Indent First Line `text-indent: 25px`
 
 Font Family `font-family: 'Open Sans', sans-serif`
 
-###Position
+### Position
 
 Position `position: static | relative | absolute | fixed | sticky`
 
@@ -109,7 +109,7 @@ Clear Floating Elements `clear: none | left | right | both`
 
 Z Index `z-index: 3 | auto | inherit`
 
-###Background
+### Background
 
 Background Image `background-image: url()`
 
@@ -121,7 +121,7 @@ Background Position `background-position: top | right | bottom | left | center`
 
 Background Attachment `background-attachment: scroll | fixed | local | initial | inherit`
 
-###Box properties
+### Box properties
 
 Margin `margin-top: 2px` `margin-right: 4px | auto` `margin-bottom: 6px`
 `margin-left: 8px | auto` `margin: 2px 4px 6px 8px | 0 auto`
@@ -135,7 +135,7 @@ Border Style `border-style: none | hidden | dotted | dashed | solid | double | g
 
 Border Width `border-width: 10px`
 
-###List Styling
+### List Styling
 
 List Type `list-style-type: disc | circle | square | none`
 
@@ -143,10 +143,10 @@ List Position `list-style-position: inside | outside`
 
 List Image `list-style-image: url();`
 
-##Notes
+## Notes
 
 Project by [Adam Marsden](https://twitter.com/AdamMarsdenUK)
 
-##License
+## License
 
 [Creative Commons Attribution-ShareAlike](https://creativecommons.org/licenses/by-sa/4.0/)
