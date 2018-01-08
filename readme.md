@@ -99,9 +99,7 @@ Font Family `font-family: 'Open Sans', sans-serif`
 
 Position `position: static | relative | absolute | fixed | sticky`
 
-Left Position `left: 10px | 10% | auto`
-
-Top Position `top: 10px | 10% | auto`
+Position Properties `top | right | bottom | left`
 
 Float Element `float: left | right | none`
 
@@ -123,11 +121,9 @@ Background Attachment `background-attachment: scroll | fixed | local | initial |
 
 ### Box properties
 
-Margin `margin-top: 2px` `margin-right: 4px | auto` `margin-bottom: 6px`
-`margin-left: 8px | auto` `margin: 2px 4px 6px 8px | 0 auto`
+Margin `margin: 2px 4px 6px 8px | 0 auto`
 
-Padding `padding-top: 2px` `padding-right: 4px | auto` `padding-bottom: 6px`
-`padding-left: 8px | auto` `padding: 2px 4px 6px 8px | 0 auto`
+Padding `padding: 2px 4px 6px 8px`
 
 Border Color `border-color: #2AA9E0`
 
@@ -145,7 +141,7 @@ List Image `list-style-image: url();`
 
 ## Notes
 
-Project by [Adam Marsden](https://twitter.com/AdamMarsdenUK)
+Built & Maintained by [Adam Marsden](https://twitter.com/AdamMarsdenUK)
 
 ## License
 
