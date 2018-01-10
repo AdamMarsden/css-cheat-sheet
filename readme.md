@@ -13,6 +13,7 @@ If you have a bug to report about the [pretty CSS Cheat Sheet](http://adam-marsd
   * [Background](https://github.com/AdamMarsden/css-cheat-sheet#background)
   * [Box properties](https://github.com/AdamMarsden/css-cheat-sheet#box-properties)
   * [List Styling](https://github.com/AdamMarsden/css-cheat-sheet#list-styling)
+  * [Flexbox](https://github.com/AdamMarsden/css-cheat-sheet#flexbox)
 
 
 ### Selectors
@@ -121,6 +122,8 @@ Background Attachment `background-attachment: scroll | fixed | local | initial |
 
 ### Box properties
 
+Box Sizing `box-sizing: border-box | content-box`
+
 Margin `margin: 2px 4px 6px 8px | 0 auto`
 
 Padding `padding: 2px 4px 6px 8px`
@@ -138,6 +141,28 @@ List Type `list-style-type: disc | circle | square | none`
 List Position `list-style-position: inside | outside`
 
 List Image `list-style-image: url();`
+
+### Flexbox
+
+Flex Direction `flex-direction: row | row-reverse | column | column-reverse`
+
+Flex Wrap `flex-wrap: nowrap | wrap | wrap-reverse`
+
+Justify Content `justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly`
+
+Align Items `align-items: flex-start | flex-end | center | baseline | stretch`
+
+Align Content `align-content: flex-start | flex-end | center | space-between | space-around | stretch`
+
+Order `order: 0`
+
+Flex Grow `flex-grow: 0`
+
+Flex Shrink `flex-shrink: 1`
+
+Flex Basis `flex-basis: 3px | auto`
+
+Align Self `align-self: auto | flex-start | flex-end | center | baseline | stretch`
 
 ## Notes
 
