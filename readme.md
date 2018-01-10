@@ -14,6 +14,7 @@ If you have a bug to report about the [pretty CSS Cheat Sheet](http://adam-marsd
   * [Box properties](https://github.com/AdamMarsden/css-cheat-sheet#box-properties)
   * [List Styling](https://github.com/AdamMarsden/css-cheat-sheet#list-styling)
   * [Flexbox](https://github.com/AdamMarsden/css-cheat-sheet#flexbox)
+  * [CSS Grid](https://github.com/AdamMarsden/css-cheat-sheet#css-grid)
 
 
 ### Selectors
@@ -140,7 +141,7 @@ List Type `list-style-type: disc | circle | square | none`
 
 List Position `list-style-position: inside | outside`
 
-List Image `list-style-image: url();`
+List Image `list-style-image: url()`
 
 ### Flexbox
 
@@ -164,7 +165,51 @@ Flex Basis `flex-basis: 3px | auto`
 
 Align Self `align-self: auto | flex-start | flex-end | center | baseline | stretch`
 
-## Notes
+### CSS Grid
+
+Grid Template Columns `grid-template-columns: 40px 50px auto 50px 40px`
+
+Grid Template Rows `grid-template-rows: 25% 100px auto`
+
+Grid Template Areas `lgrid-template-areas: "a b c" | none`
+
+Grid Template `grid-template: "a a a" 20% "b b b" auto | 100px 1fr / 50px 1fr`
+
+Grid Column Gap `grid-column-gap: 10px`
+
+Grid Row Gap `grid-row-gap: 10px`
+
+Justify Items `justify-items: start | end | center | stretch`
+
+Align Items `align-items: start | end | center | stretch`
+
+Justify Content `justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly`
+
+Align Content `align-content: flex-start | flex-end | center | space-between | space-around | stretch`
+
+Grid Auto Columns `grid-auto-columns: 100px | max-content | min-content`
+
+Grid Auto Rows `grid-auto-rows: 100px | max-content | min-content`
+
+Grid Auto Flow `grid-auto-flow: row | column | row dense | column dense`
+
+Grid Column Start `grid-column-start: 2 | areaname | span 2 | span areaname | auto`
+
+Grid Column End `grid-column-end: 2 | areaname | span 2 | span areaname | auto`
+
+Grid Row Start `grid-row-start: 2 | areaname | span 2 | span areaname | auto`
+
+Grid Row End `grid-row-end: 2 | areaname | span 2 | span areaname | auto`
+
+Grid Column `grid-column: 3 / span 2`
+
+Grid Row `grid-row: 3 / span 2`
+
+Justify Self `justify-self: start | end | center | stretch`
+
+Align Self `align-self: start | end | center | stretch`
+
+## Credits
 
 Built & Maintained by [Adam Marsden](https://twitter.com/AdamMarsdenUK)
 
