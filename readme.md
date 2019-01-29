@@ -15,6 +15,7 @@ If you have a bug to report about the [pretty CSS Cheat Sheet](http://adam-marsd
   * [List Styling](https://github.com/AdamMarsden/css-cheat-sheet#list-styling)
   * [Flexbox](https://github.com/AdamMarsden/css-cheat-sheet#flexbox)
   * [CSS Grid](https://github.com/AdamMarsden/css-cheat-sheet#css-grid)
+  * [Text](https://github.com/AdamMarsden/css-cheat-sheet#text)
 
 
 ### Selectors
@@ -208,6 +209,24 @@ Grid Row `grid-row: 3 / span 2`
 Justify Self `justify-self: start | end | center | stretch`
 
 Align Self `align-self: start | end | center | stretch`
+
+### Text
+
+Text Align `text-align: left | right | center | justify | initial | inherit`
+
+Text Align Last `text-align-last: auto | left | right | center | justify | start | end | initial | inherit`
+
+Text Decoration `text-decoration: text-decoration-line text-decoration-color text-decoration-style | initial | inherit`
+
+Text Indent `text-indent: length | initial | inherit`
+
+Text Justify `text-justify: auto | inter-word | inter-character | none | initial | inherit`
+
+Text Overflow `text-overflow: clip | ellipsis | string | initial | inherit`
+
+Text Shadow `text-shadow: h-shadow v-shadow blur-radius color | none | initial | inherit`
+
+Text Transform `text-transform: none | capitalize | uppercase | lowercase | initial | inherit`
 
 ## Credits
 
