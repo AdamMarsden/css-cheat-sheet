@@ -171,7 +171,7 @@ Grid Template Columns `grid-template-columns: 40px 50px auto 50px 40px`
 
 Grid Template Rows `grid-template-rows: 25% 100px auto`
 
-Grid Template Areas `lgrid-template-areas: "a b c" | none`
+Grid Template Areas `grid-template-areas: "a b c" | none`
 
 Grid Template `grid-template: "a a a" 20% "b b b" auto | 100px 1fr / 50px 1fr`
 
