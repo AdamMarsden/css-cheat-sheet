@@ -7,8 +7,7 @@ If you have a bug to report about the [pretty CSS Cheat Sheet](http://adam-marsd
 ## CSSCS Nav
 
   * [Selectors](#selectors)
-  * [Pseudo Selectors](#pseudo-selectors)
-  * [Pseudo Elements](#pseudo-elements)
+  * [Pseudo Selectors & Elements](#pseudo-selectors)
   * [Text Styling](#text-styling)
   * [Position](#position)
   * [Background](#background)
