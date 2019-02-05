@@ -2,19 +2,21 @@
 A quick go to guide for CSS goodness. Checkout the [pretty version](http://adam-marsden.co.uk/css-cheat-sheet).
 
 ## Contributing
-If you have a bug to report about the [pretty CSS Cheat Sheet](http://adam-marsden.co.uk/css-cheat-sheet) or something to add onto the CSS Cheat Sheet follow the [contribution guidelines](https://github.com/AdamMarsden/css-cheat-sheet/blob/master/CONTRIBUTING.md).
+If you have a bug to report about the [pretty CSS Cheat Sheet](http://adam-marsden.co.uk/css-cheat-sheet) or something to add onto the CSS Cheat Sheet follow the [contribution guidelines](CONTRIBUTING.md).
 
 ## CSSCS Nav
 
-  * [Selectors](https://github.com/AdamMarsden/css-cheat-sheet#selectors)
-  * [Pseudo Selectors](https://github.com/AdamMarsden/css-cheat-sheet#pseudo-selectors)
-  * [Font Styling](https://github.com/AdamMarsden/css-cheat-sheet#font-styling)
-  * [Position](https://github.com/AdamMarsden/css-cheat-sheet#position)
-  * [Background](https://github.com/AdamMarsden/css-cheat-sheet#background)
-  * [Box properties](https://github.com/AdamMarsden/css-cheat-sheet#box-properties)
-  * [List Styling](https://github.com/AdamMarsden/css-cheat-sheet#list-styling)
-  * [Flexbox](https://github.com/AdamMarsden/css-cheat-sheet#flexbox)
-  * [CSS Grid](https://github.com/AdamMarsden/css-cheat-sheet#css-grid)
+  * [Selectors](#selectors)
+  * [Pseudo Selectors](#pseudo-selectors)
+  * [Pseudo Elements](#pseudo-elements)
+  * [Font Styling](#font-styling)
+  * [Position](#position)
+  * [Background](#background)
+  * [Box properties](#box-properties)
+  * [List Styling](#list-styling)
+  * [Flexbox](#flexbox)
+  * [CSS Grid](#css-grid)
+  * [Dynamic Content](#dynamic-content)
 
 
 ### Selectors
@@ -57,6 +59,8 @@ First Child Selector `p:first-child {}`
 
 Last Child Selector `p:last-child {}`
 
+Only Child Selector `p:only-child {}`
+
 :nth-child Selector `p:nth-child() {}`
 
 First Element of its Parent Selector `p:first-of-type {}`
@@ -70,6 +74,10 @@ Enabled elements selector `input:enabled {}`
 Elements that have no Children Selector (including text nodes) `p:empty {}`
 
 Not a Specified Element Selector `:not(p) {}`
+
+Before Element `.class::before {}`
+
+After Element `.class::before {}`
 
 ### Font Styling
 
@@ -208,6 +216,20 @@ Grid Row `grid-row: 3 / span 2`
 Justify Self `justify-self: start | end | center | stretch`
 
 Align Self `align-self: start | end | center | stretch`
+
+### Dynamic Content
+
+CSS Variable `--variable-name: value`
+
+Variable Usage `var(--variable-name)`
+
+Counter Reset `counter-reset: name-of-counter`
+
+Counter Increment `counter-increment: name-of-counter`
+
+Counter Dynamic Value `content: counter(name-of-counter)`
+
+Attribute Dynamic Value `content: attr(name-of-attribute)`
 
 ## Credits
 
