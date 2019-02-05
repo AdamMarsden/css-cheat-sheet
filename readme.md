@@ -9,7 +9,7 @@ If you have a bug to report about the [pretty CSS Cheat Sheet](http://adam-marsd
   * [Selectors](#selectors)
   * [Pseudo Selectors](#pseudo-selectors)
   * [Pseudo Elements](#pseudo-elements)
-  * [Font Styling](#font-styling)
+  * [Text Styling](#text-styling)
   * [Position](#position)
   * [Background](#background)
   * [Box properties](#box-properties)
@@ -39,7 +39,7 @@ General Sibling Selector `h1 ~ p {}`
 
 Attribute Selector `[attribute="SomeValue"] {}`
 
-### Pseudo Selectors
+### Pseudo Selectors & Elements
 
 Mouse Over Selector `a:hover {}`
 
@@ -79,7 +79,7 @@ Before Element `.class::before {}`
 
 After Element `.class::before {}`
 
-### Font Styling
+### Text Styling
 
 Font style `font-style: normal | italic | oblique`
 
@@ -99,11 +99,19 @@ Line Height `line-height: normal | 3em | 34%`
 
 Horizontal Alignment `text-align: left | right | center | justify`
 
+Text Align Last `text-align-last: auto | left | right | center | justify | start | end | initial | inherit`
+
 Text Decoration `text-decoration: none | underline | overline | line-through`
 
 Indent First Line `text-indent: 25px`
 
 Font Family `font-family: 'Open Sans', sans-serif`
+
+Text Justify `text-justify: auto | inter-word | inter-character | none | initial | inherit`
+
+Text Overflow `text-overflow: clip | ellipsis | string | initial | inherit`
+
+Text Shadow `text-shadow: h-shadow v-shadow blur-radius color | none | initial | inherit`
 
 ### Position
 
@@ -179,7 +187,7 @@ Grid Template Columns `grid-template-columns: 40px 50px auto 50px 40px`
 
 Grid Template Rows `grid-template-rows: 25% 100px auto`
 
-Grid Template Areas `lgrid-template-areas: "a b c" | none`
+Grid Template Areas `grid-template-areas: "a b c" | none`
 
 Grid Template `grid-template: "a a a" 20% "b b b" auto | 100px 1fr / 50px 1fr`
 
