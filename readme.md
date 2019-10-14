@@ -7,6 +7,7 @@ If you have a bug to report about the [pretty CSS Cheat Sheet](http://adam-marsd
 ## CSSCS Nav
 
   * [Selectors](#selectors)
+  * [Selectors Specificity](#selectorsSpecificity)
   * [Pseudo Selectors & Elements](#pseudo-selectors)
   * [Text Styling](#text-styling)
   * [Position](#position)
@@ -37,6 +38,11 @@ Adjacent Sibling Selector `h1 + p {}`
 General Sibling Selector `h1 ~ p {}`
 
 Attribute Selector `[attribute="SomeValue"] {}`
+
+### Pseudo Selectors & Elements
+the three main selectors (tags, classes and IDs) offer different level of specificity.
+IDs have maximum specificity followed by classes and tags have least.
+This very nature gives C of CSS as CASCADING meaning overlying different css style using a declaration of higher specificness..
 
 ### Pseudo Selectors & Elements
 
