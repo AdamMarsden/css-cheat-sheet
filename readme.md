@@ -39,7 +39,7 @@ General Sibling Selector `h1 ~ p {}`
 
 Attribute Selector `[attribute="SomeValue"] {}`
 
-### Pseudo Selectors & Elements
+### Selectors Specificity
 the three main selectors (tags, classes and IDs) offer different level of specificity.
 IDs have maximum specificity followed by classes and tags have least.
 This very nature gives C of CSS as CASCADING meaning overlying different css style using a declaration of higher specificness..
