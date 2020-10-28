@@ -112,6 +112,10 @@ Text Overflow `text-overflow: clip | ellipsis | string | initial | inherit`
 
 Text Shadow `text-shadow: h-shadow v-shadow blur-radius color | none | initial | inherit`
 
+Letter Spacing `letter-spacing: normal | length | initial | inherit`
+
+Word Spacing `word-spacing: normal | length | initial | inherit;`
+
 ### Position
 
 Position `position: static | relative | absolute | fixed | sticky`
@@ -150,6 +154,8 @@ Border Style `border-style: none | hidden | dotted | dashed | solid | double | g
 
 Border Width `border-width: 10px`
 
+Border Radius `borded-radius: 1em`
+
 ### List Styling
 
 List Type `list-style-type: disc | circle | square | none`
@@ -177,6 +183,8 @@ Flex Grow `flex-grow: 0`
 Flex Shrink `flex-shrink: 1`
 
 Flex Basis `flex-basis: 3px | auto`
+
+Flex Shorthand `flex: Flex Grow | Flex Shrink | Flex Basis`
 
 Align Self `align-self: auto | flex-start | flex-end | center | baseline | stretch`
 
