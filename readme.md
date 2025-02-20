@@ -1,8 +1,8 @@
 # CSS Cheat Sheet
-A quick go to guide for CSS goodness. Checkout the [pretty version](http://adam-marsden.co.uk/css-cheat-sheet).
+A quick go to guide for CSS goodness. Checkout the [pretty version](https://admm.co/css-cheat-sheet).
 
 ## Contributing
-If you have a bug to report about the [pretty CSS Cheat Sheet](http://adam-marsden.co.uk/css-cheat-sheet) or something to add onto the CSS Cheat Sheet follow the [contribution guidelines](CONTRIBUTING.md).
+If you have a bug to report about the [pretty CSS Cheat Sheet](https://admm.co/css-cheat-sheet) or something to add onto the CSS Cheat Sheet follow the [contribution guidelines](CONTRIBUTING.md).
 
 ## CSSCS Nav
 
@@ -15,8 +15,11 @@ If you have a bug to report about the [pretty CSS Cheat Sheet](http://adam-marsd
   * [List Styling](#list-styling)
   * [Flexbox](#flexbox)
   * [CSS Grid](#css-grid)
+  * [Animations & Transitions](#animations)
+  * [Modern Layout](#modern-layout)
   * [Dynamic Content](#dynamic-content)
 
+---
 
 ### Selectors
 
@@ -37,6 +40,8 @@ Adjacent Sibling Selector `h1 + p {}`
 General Sibling Selector `h1 ~ p {}`
 
 Attribute Selector `[attribute="SomeValue"] {}`
+
+---
 
 ### Pseudo Selectors & Elements
 
@@ -76,7 +81,9 @@ Not a Specified Element Selector `:not(p) {}`
 
 Before Element `.class::before {}`
 
-After Element `.class::before {}`
+After Element `.class::after {}`
+
+---
 
 ### Text Styling
 
@@ -112,6 +119,8 @@ Text Overflow `text-overflow: clip | ellipsis | string | initial | inherit`
 
 Text Shadow `text-shadow: h-shadow v-shadow blur-radius color | none | initial | inherit`
 
+---
+
 ### Position
 
 Position `position: static | relative | absolute | fixed | sticky`
@@ -124,6 +133,8 @@ Clear Floating Elements `clear: none | left | right | both`
 
 Z Index `z-index: 3 | auto | inherit`
 
+---
+
 ### Background
 
 Background Image `background-image: url()`
@@ -135,6 +146,14 @@ Background Color `background-color: #2AA9E0`
 Background Position `background-position: top | right | bottom | left | center`
 
 Background Attachment `background-attachment: scroll | fixed | local | initial | inherit`
+
+Background Blend Mode `background-blend-mode: normal | multiply | screen | overlay | darken | lighten`
+
+Background Clip `background-clip: border-box | padding-box | content-box | text`
+
+Backdrop Filter `backdrop-filter: blur(5px) | brightness(60%) | contrast(40%)`
+
+---
 
 ### Box properties
 
@@ -150,6 +169,16 @@ Border Style `border-style: none | hidden | dotted | dashed | solid | double | g
 
 Border Width `border-width: 10px`
 
+Box Shadow `box-shadow: offset-x offset-y blur-radius spread-radius color`
+
+Border Radius `border-radius: 10px | 50% | 10px 20px`
+
+Outline `outline: 1px solid red | outline-offset: 2px`
+
+Clip Path `clip-path: circle(50%) | polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%)`
+
+---
+
 ### List Styling
 
 List Type `list-style-type: disc | circle | square | none`
@@ -157,6 +186,8 @@ List Type `list-style-type: disc | circle | square | none`
 List Position `list-style-position: inside | outside`
 
 List Image `list-style-image: url()`
+
+---
 
 ### Flexbox
 
@@ -179,6 +210,8 @@ Flex Shrink `flex-shrink: 1`
 Flex Basis `flex-basis: 3px | auto`
 
 Align Self `align-self: auto | flex-start | flex-end | center | baseline | stretch`
+
+---
 
 ### CSS Grid
 
@@ -224,6 +257,34 @@ Justify Self `justify-self: start | end | center | stretch`
 
 Align Self `align-self: start | end | center | stretch`
 
+---
+
+### Animations & Transitions
+
+Animation `animation: name duration timing-function delay iteration-count direction fill-mode play-state`
+
+Keyframes `@keyframes name { from {} to {} }`
+
+Transition `transition: property duration timing-function delay`
+
+Transform `transform: translate(x, y) rotate(deg) scale(x, y) skew(x-angle, y-angle)`
+
+---
+
+### Modern Layout
+
+Container Type `container-type: inline-size | size | normal`
+
+Container Query `@container (min-width: 400px) { }`
+
+Subgrid `grid-template-columns: subgrid`
+
+Aspect Ratio `aspect-ratio: 16 / 9`
+
+Logical Properties `margin-block: 1rem; padding-inline: 2rem`
+
+---
+
 ### Dynamic Content
 
 CSS Variable `--variable-name: value`
@@ -238,9 +299,11 @@ Counter Dynamic Value `content: counter(name-of-counter)`
 
 Attribute Dynamic Value `content: attr(name-of-attribute)`
 
+---
+
 ## Credits
 
-Built & Maintained by [Adam Marsden](https://twitter.com/AdamMarsdenUK)
+Built & Maintained by [Adam Marsden](https://admm.co/)
 
 ## License
 
